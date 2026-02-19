@@ -12,11 +12,7 @@ jobs:
 
     defaults:
       run:
-<<<<<<< HEAD
         working-directory: demo-frontend
-=======
-        working-directory: demo-frontend   # 👈 your project folder
->>>>>>> 5f39461136979f7b3c2683e64ea0e96a58efdf05
 
     steps:
       - name: Checkout Repository
