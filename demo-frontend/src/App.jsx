@@ -1,16 +1,17 @@
-import { useState } from "react";
+import { useState } from 'react';
+import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div style={{ textAlign: "center", marginTop: "100px" }}>
-      <h1>GitHub Actions Demo 🚀</h1>
+    <div className="App">
+      <h1>GitHub Actions Demo</h1>
       <p>Simple React Frontend Application</p>
-
-      <h2>Counter is: {count}</h2>
-
-      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <p>Counter is: {count}</p>
+      <button onClick={() => setCount(count + 1)}>
+        Increase
+      </button>
     </div>
   );
 }
