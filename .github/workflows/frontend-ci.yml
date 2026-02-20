@@ -3,6 +3,8 @@ name: React Frontend CI
 on:
   push:
     branches: [main]
+permissions: 
+  contents: read
   pull_request:
     branches: [main]
 
